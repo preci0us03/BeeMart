@@ -1,0 +1,76 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape>
+            <padding android:top="1dp" android:right="1dp" android:bottom="1dp" android:left="1dp" />
+            <stroke android:color="@color/color_item_shadow" android:width="2dp"  />
+            <corners android:topRightRadius="50dp"
+                android:bottomRightRadius="50dp"/>
+
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1dp" android:right="1dp" android:bottom="1dp" android:left="1dp" />
+            <stroke android:color="@color/color_item_shadow" android:width="1dp" />
+            <corners android:topRightRadius="50dp"
+                android:bottomRightRadius="50dp"/>
+
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1dp" android:right="1dp" android:bottom="1dp" android:left="1dp" />
+            <stroke android:color="@color/color_item_shadow" android:width="1dp" />
+            <corners android:topRightRadius="50dp"
+                android:bottomRightRadius="50dp"/>
+
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1dp" android:right="1dp" android:bottom="1dp" android:left="1dp" />
+            <stroke android:color="@color/color_item_shadow" android:width="1dp" />
+            <corners android:topRightRadius="50dp"
+                android:bottomRightRadius="50dp"/>
+
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1dp" android:right="1dp" android:bottom="1dp" android:left="1dp" />
+            <stroke android:color="@color/color_item_shadow" android:width="1dp" />
+            <corners android:topRightRadius="50dp"
+                android:bottomRightRadius="50dp"/>
+
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1dp" android:right="1dp" android:bottom="1dp" android:left="1dp" />
+            <stroke android:color="@color/color_item_shadow" android:width="1dp" />
+            <corners android:topRightRadius="50dp"
+                android:bottomRightRadius="50dp"/>
+
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1dp" android:right="1dp" android:bottom="1dp" android:left="1dp" />
+            <stroke android:color="@color/color_item_shadow" android:width="1dp" />
+            <corners android:topRightRadius="50dp"
+                android:bottomRightRadius="50dp"/>
+
+        </shape>
+    </item>
+    <item>
+        <!-- create gradient you want to use with the angle you want to use -->
+        <shape android:shape="rectangle"   xmlns:android="http://schemas.android.com/apk/res/android" >
+            <solid android:color="@color/color_item"/>
+            <corners android:topRightRadius="50dp"
+                android:bottomRightRadius="50dp"/>
+
+        </shape>
+
+    </item>
+
+</layer-list>

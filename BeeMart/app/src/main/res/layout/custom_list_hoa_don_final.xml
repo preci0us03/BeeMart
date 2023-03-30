@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/boder_one_line_cam"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+
+        app:layoutDescription="@xml/custom_list_loai_san_pham_scene">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo_app"
+            android:layout_weight="2"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:id="@+id/layoutHoaDonChiTiet">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Khách hàng: "
+                android:id="@+id/tvTenKhachHang"
+                android:textColor="@color/mauDenHoaDon"
+                android:fontFamily="@font/inter_extra_blod"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Mã hoá đơn: "
+                android:id="@+id/tvMaHoaDon"
+                android:textColor="@color/mauDenHoaDon"
+                android:fontFamily="@font/inter_extra_blod"
+                android:textSize="11sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Tổng tiền: "
+                android:id="@+id/tvTongTien"
+                android:textColor="@color/mauDenHoaDon"
+                android:fontFamily="@font/inter_extra_blod"
+                android:textSize="11sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Ngày mua: "
+                android:id="@+id/tvNgayMua"
+                android:textColor="@color/mauDenHoaDon"
+                android:fontFamily="@font/inter_extra_blod"
+                android:textSize="11sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tình trạng: "
+                    android:textColor="@color/mauDenHoaDon"
+                    android:fontFamily="@font/inter_extra_blod"
+                    android:textSize="11sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Tình trạng: "
+                    android:id="@+id/tvTinhTrang"
+                    android:fontFamily="@font/inter_extra_blod"
+                    android:textSize="11sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/icon_chamthan"
+            android:id="@+id/imgChiTiet"
+            android:layout_marginRight="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

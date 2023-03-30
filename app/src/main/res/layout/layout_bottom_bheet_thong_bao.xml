@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="com.google.android.metarial.bottomsheet.BottomSheetBehavior">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_extra_blod"
+            android:text="Tổng tiền"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvTienDonHang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_extra_blod"
+            android:gravity="end"
+            android:text="20000 VND"
+            android:textColor="@color/mauXanh"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter_mediun"
+        android:text="BimBim cay 3x1"
+        android:textColor="@color/mauChuLogin"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/inter_mediun"
+        android:text="BimBim cay"
+        android:textColor="@color/mauChuLogin"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/inter_extra_blod"
+        android:text="Địa chỉ nhận hàng"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter_mediun"
+        android:text="Lương Việt Hoàng - 0862350882"
+        android:textColor="@color/mauChuLogin"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/inter_mediun"
+        android:text="Lực Hành - Yên Sơn - Tuyên Quang"
+        android:textColor="@color/mauChuLogin"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/btnXacNhanDonHang"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/mauChuLogin"
+        android:fontFamily="@font/inter_extra_blod"
+        android:text="Xác nhận"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+</LinearLayout>
